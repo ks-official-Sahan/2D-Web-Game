@@ -1,0 +1,127 @@
+body{
+    margin: 0px;
+    /* background-image: radial-gradient(); */
+    background-color: rgb(0, 136, 255);
+}
+
+.background{
+    width: 100%;
+    height: 95vh;
+    /* background-color: brown; */
+    background-image: url("Resources/Background1.jpg");
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-position-y: 20px;
+    position: absolute;
+    overflow-x: hidden;
+}
+
+.boy{
+    height: 30vh;
+    margin-top: 57.5vh;
+    position: absolute;
+    visibility: hidden;
+}
+
+.box{
+    height: 100px;
+    width: 60px;
+    background-image: url("Resources/flame.gif");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 500px;
+    visibility: hidden;
+}
+
+.score{
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+    visibility: hidden;
+}
+
+.winMsgBox {
+    width: 25%;
+    height: 20vh;
+    font-size: 50px;
+    font-weight: bolder;
+    color: gold;
+    background-image: radial-gradient(aqua, white);
+    border: 30px;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40vh 35%;
+    outline: 20px;
+    box-shadow: 0px 0px 30px 30px rgb(149, 149, 149);
+}
+
+.startMsg {
+    width: 25%;
+    height: 20vh;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black;
+    border: none;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 40vh 35%;
+}
+
+.end {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 136, 255);
+
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Arial";
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    border: black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.startInterface{
+    position: absolute;
+    width: 100%;
+    height: 95vh;
+    background-color: rgb(0, 136, 255);
+
+    font-size: 90px;
+    font-weight: bold;
+    font-family: "Arial";
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility: visible;
+}
